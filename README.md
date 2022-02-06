@@ -36,7 +36,7 @@ Instalando o ambiente virtual(virtualenv):
 5. Colar o seguinte comando: python -m pip install -r requirements.txt
 
 6. colar o comando: teste.py
-* Após essa sequencia o navegador será iniciado automaticamente e os formulários serão preenchidos 
+* Após essa sequência o navegador será iniciado automaticamente e os formulários serão preenchidos 
 
 ## 🛠️ Construído com
 
