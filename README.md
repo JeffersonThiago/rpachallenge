@@ -16,24 +16,31 @@ Os testes foram executados com as seguintes ferramentas nas seguintes versões:
 * Google Chrome 98.0.4758.82 (Versão oficial) 64 bits
 * Python 3.9.5
 
-### 🔧 Instalação de um ambiente virtual
+### 🔧 Instalação e criação de um ambiente virtual
 Instalando o ambiente virtual(virtualenv):
 
 1. Abrir o prompt de comando do windows
 2. colar o comando: pip install virtualenv
+   * se o pip não for localizado mesmo com python instalado verifique a possível solução [aqui](https://dicasdepython.com.br/resolvido-pip-nao-e-reconhecido-como-um-comando-interno/)
+
+3. Digitar o comando: cd caminho_onde_se_encontra_os_arquivos_baixados_aqui_no_git
+   * Exemplo de comando anterior: cd C:\Users\jeffe\Desktop\rpachallenge\challenge
+4. colar o seguinte comando: virtualenv criar_nome_para_o_ambiente
+   * exemplo do comando anterior: virtualenv ambiente_bwa1
 
 ### ⌨️ Iniciando o ambiente virtual e iniciando o programa
 1. Abrir o prompt de comando do windows
-2. Digitar o comando: cd caminho_onde_se_encontra_a_pasta_baixada_aqui_no_git
-   Exemplo de comando anterior: cd C:\Users\jeffe\Desktop\Teste bwa
-3. Colar o seguinte comando: ambiente_bwa1\Scripts\activate.bat
-4. Colar os seguintes comandos um por vez:
-    pip install selenium
-    pip install pandas
-    pip install webdriver_manager
-    pip install openpyxl
+2. Digitar o comando: cd caminho_onde_se_encontra_os_arquivos_baixados_aqui_no_git
+   * Exemplo de comando anterior: cd C:\Users\jeffe\Desktop\rpachallenge\challenge
+3. Colar o seguinte comando: nome_do_seu_ambiente\Scripts\activate.bat
+   * Exemplo de comando anterior: ambiente_bwa1\Scripts\activate.bat
+5. Colar os seguintes comandos um por vez:
+    * pip install selenium
+    * pip install pandas
+    * pip install webdriver_manager
+    * pip install openpyxl
 5. colar o comando: teste.py
-após essa sequencia o navegador será iniciado automaticamente e os formulários serão preenchidos 
+* Após essa sequencia o navegador será iniciado automaticamente e os formulários serão preenchidos 
 
 ## 🛠️ Construído com
 
