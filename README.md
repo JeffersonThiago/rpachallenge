@@ -8,11 +8,6 @@ Essas instruções permitirão baixar e rodar a solução para o rpa challenge e
 
 Os testes foram executados com as seguintes ferramentas nas seguintes versões:
 
-* Selenium 4.1.0
-* Pandas 1.4.0
-* Openpyxl 3.0.9
-* Virtualenv 20.13.0
-* Web-drivermanager 3.5.2
 * Google Chrome 98.0.4758.82 (Versão oficial) 64 bits
 * Python 3.9.5
 
