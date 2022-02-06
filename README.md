@@ -11,6 +11,8 @@ Os testes foram executados com as seguintes ferramentas nas seguintes versões:
 * Google Chrome 98.0.4758.82 (Versão oficial) 64 bits
 * Python 3.9.5
 
+* Lembre-se de clonar ou baixar a versão zip dos arquivos para sua máquina.
+
 ## 🔧 Instalação e criação de um ambiente virtual
 
 Instalando o ambiente virtual(virtualenv):
@@ -31,12 +33,9 @@ Instalando o ambiente virtual(virtualenv):
    * Exemplo de comando anterior: cd C:\Users\jeffe\Desktop\rpachallenge\challenge
 3. Colar o seguinte comando: nome_do_seu_ambiente\Scripts\activate.bat
    * Exemplo de comando anterior: ambiente_bwa1\Scripts\activate.bat
-5. Colar os seguintes comandos um por vez:
-    * pip install selenium
-    * pip install pandas
-    * pip install webdriver_manager
-    * pip install openpyxl
-5. colar o comando: teste.py
+5. Colar o seguinte comando: python -m pip install -r requirements.txt
+
+6. colar o comando: teste.py
 * Após essa sequencia o navegador será iniciado automaticamente e os formulários serão preenchidos 
 
 ## 🛠️ Construído com
