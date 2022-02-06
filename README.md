@@ -21,17 +21,17 @@ Instalando o ambiente virtual(virtualenv):
 2. colar o comando: pip install virtualenv
    * se o pip não for localizado mesmo com python instalado verifique a possível solução [aqui](https://dicasdepython.com.br/resolvido-pip-nao-e-reconhecido-como-um-comando-interno/)
 
-3. Digitar o comando: cd caminho_onde_se_encontra_os_arquivos_baixados_aqui_no_git
-   * Exemplo de comando anterior: cd C:\Users\jeffe\Desktop\rpachallenge\challenge
-4. colar o seguinte comando: virtualenv criar_nome_para_o_ambiente
+3. Digitar o comando de acordo com a localização da sua pasta: cd caminho_onde_se_encontra_os_arquivos_baixados_aqui_no_git
+   * Exemplo de comando anterior: cd C:\Users\jeffe\Desktop\rpachallenge-main\rpachallenge-main\challenge
+4. Digitar o comando de acordo como você quer nomear o ambiente: virtualenv criar_nome_para_o_ambiente
    * exemplo do comando anterior: virtualenv ambiente_bwa1
 
 ## ⌨️ Iniciando o ambiente virtual e iniciando o programa
 
 1. Abrir o prompt de comando do windows
-2. Digitar o comando: cd caminho_onde_se_encontra_os_arquivos_baixados_aqui_no_git
-   * Exemplo de comando anterior: cd C:\Users\jeffe\Desktop\rpachallenge\challenge
-3. Colar o seguinte comando: nome_do_seu_ambiente\Scripts\activate.bat
+2. Digitar o comando de acordo com a localização da sua pasta: cd caminho_onde_se_encontra_os_arquivos_baixados_aqui_no_git
+   * Exemplo de comando anterior: cd C:\Users\jeffe\Desktop\rpachallenge-main\rpachallenge-main\challenge
+3. Digitar o comando de acordo com o nome que você deu ao ambiente: nome_do_seu_ambiente\Scripts\activate.bat
    * Exemplo de comando anterior: ambiente_bwa1\Scripts\activate.bat
 5. Colar o seguinte comando: python -m pip install -r requirements.txt
 
